@@ -1,0 +1,17 @@
+{
+    "adchoice": "Christo", 
+    "conzone": 150.0, 
+    "depth": 150.0, 
+    "diffu": "Fre", 
+    "gaschoice": "d15N2", 
+    "gravity": "on", 
+    "pressure": 74500.0, 
+    "rho0": 350.0, 
+    "runtype": "steady", 
+    "sitechoice": "SCENARIO", 
+    "steps": 4.0, 
+    "tgrad": 0.0, 
+    "thermal": "off", 
+    "userdata": false, 
+    "z_res": 0.5
+}
