@@ -128,6 +128,8 @@ class airModel(Tkinter.Tk):
         print "display"
         
     def run(self):
+        print(str(self.dataDir))
+        print(str(self.resultDir))
         firnAir = firnAirModel.firnAirModel(self.cc, self.dataDir, self.resultDir)
     
     def saveData(self):
@@ -142,3 +144,5 @@ class airModel(Tkinter.Tk):
             self.loadButton['state'] = 'normal'
             self.plotButton['state'] = 'normal'
      
+if __name__ == "__main__":
+    air = airModel()
